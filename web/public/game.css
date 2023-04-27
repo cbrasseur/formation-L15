@@ -1,0 +1,126 @@
+
+#game-page{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#grid-wrapper{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    border-spacing: 5px;
+}
+
+td{
+    font-family: monospace;
+    text-align: center;
+    border: 0px solid black;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+    background-color: burlywood;
+}
+
+.both, .p1, .p2, .finish{
+    color: white;
+}
+
+.both{
+    background-color: #9c88ff;
+}
+
+.p1{
+    background-color: var(--p1-color);
+}
+
+.p2{
+    background-color: var(--p2-color);
+}
+
+.finish{
+    background-color: var(--green);
+}
+
+#scores-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+#scores-wrapper > #players{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cell-score{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#play-control{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+form > input[type='submit']{
+    border: 0;
+    width: 60%;
+    padding: 3px 0 3px 0;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    color: white;
+    transition: all .1s;
+    cursor: pointer;
+}
+
+#play-form > input[type='submit']{
+    background-color: var(--green);
+}
+
+#quit-form{
+    margin-top: 100px;
+}
+
+#quit-form > input[type='submit']{
+    width: 150px;
+    background-color: red;
+}
+
+
+

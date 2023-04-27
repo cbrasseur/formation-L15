@@ -1,0 +1,22 @@
+body {
+    --p1-color: #00a8ff;
+    --p2-color: #e84118;
+    --green: #4CAF50;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#github{
+    position: absolute;
+    font-size: .9rem;
+    bottom: 10px;
+    right: 10px;
+}
